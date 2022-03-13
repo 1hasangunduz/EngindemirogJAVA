@@ -1,3 +1,5 @@
+package oopintro;
+
 public class Category {
 
     public  int id;

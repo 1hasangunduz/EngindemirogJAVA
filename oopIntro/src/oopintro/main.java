@@ -1,3 +1,5 @@
+package oopintro;
+
 public class main {
 
     public static void main(String[] args) {
@@ -18,8 +20,8 @@ public class main {
         product2.setDiscount(12);
         System.out.println(product2.getUnitPriceAfterDiscount());
 
-//        Product[] products = {product1,product2};
-//        for (Product product: products) {
+//        oopintro.Product[] products = {product1,product2};
+//        for (oopintro.Product product: products) {
 //            System.out.println(product.id+","+product.name+","+product.unitPrice+","+product.detail);
 //        }
 
