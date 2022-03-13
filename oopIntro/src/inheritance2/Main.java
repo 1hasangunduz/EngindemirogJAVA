@@ -10,3 +10,5 @@ public class Main {
 
 
 }
+
+//abstract class,Abstraction (Soyutlama) ve interface araştır.

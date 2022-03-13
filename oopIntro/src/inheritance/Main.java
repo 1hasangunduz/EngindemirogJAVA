@@ -1,4 +1,4 @@
-package inheritance;//miras demektir.
+package inheritance;//miras-kalıtım demektir.
 
 //ünlü bir coder engin demiroğ çok üstünde durdu ; Polimorfizm (çok biçimlilik); bir türün başka bir tür gibi davranabilme ve bu tür gibi kullanılabilme özelliğinden kaynaklanır.
 // Nesne yönelimli programlama dillerinde çok biçimcilik özelliği de yine aynı temel sınıftan türetilmiş olan sınıflarda paylaşılan bir uygulamadır.
