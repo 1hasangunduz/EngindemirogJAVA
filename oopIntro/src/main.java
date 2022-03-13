@@ -1,7 +1,7 @@
 public class main {
 
-    public static  void main(String[] args) {
-
+    public static void main(String[] args) {
+        //super(): basedekini çalıştırır.
         Product product1 = new Product();
         product1.setId(13);
         product1.setName("Acer Plur");
@@ -10,7 +10,7 @@ public class main {
         product1.setDiscount(10);
         System.out.println(product1.getUnitPriceAfterDiscount());
 
-        Product product2= new Product();
+        Product product2 = new Product();
         product2.setId(15);
         product2.setName("HP spicy");
         product2.setUnitPrice(12520);
@@ -23,14 +23,20 @@ public class main {
 //            System.out.println(product.id+","+product.name+","+product.unitPrice+","+product.detail);
 //        }
 
-    Category category1 = new Category(1,"Computer");
-    Category category2 = new Category(2,"Ev/Bahçe");
+        Category category1 = new Category(1,"computer");
+        Category category2 = new Category(2,"Züccaciye");
 
-    Category[] categorys={category1,category2};
-        for(Category category:categorys) {
-            System.out.println(category.id +" , " + category.name);
+        Category category3= new Category();
+        category3.setId(1);
+        category3.setName( "hasan" );
+
+        System.out.println(category1.getName());
+        System.out.println(category2.getName()+" "+ category3.getName());
+        Category[] categorys = {category1, category2,category3};
+        for (Category category : categorys) {
+            System.out.println(category.id + " , " + category.name);
         }
-    ProductManager productManager = new ProductManager();
+        ProductManager productManager = new ProductManager();
         productManager.addToCart(product1);
         productManager.addToCart(product2);
 
