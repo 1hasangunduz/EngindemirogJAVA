@@ -10,8 +10,13 @@ public class Main {
         CorporateCustomer hepsiBurada = new CorporateCustomer();
         hepsiBurada.customerNumber = "30989";
 
+        SendikaCustomer BBDK = new SendikaCustomer();
+        BBDK.customerNumber = "23234";
+
         CustomerManager customerManager = new CustomerManager();
-        customerManager.add(engin);
-        customerManager.add(hepsiBurada);
+
+        Customer[] customers ={engin,hepsiBurada,BBDK};
+       customerManager.addMultiple(customers);
+
     }
 }
