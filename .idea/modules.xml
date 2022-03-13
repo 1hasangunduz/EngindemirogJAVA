@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/oopIntro/inheritance.iml" filepath="$PROJECT_DIR$/oopIntro/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopIntro/inheritance2.iml" filepath="$PROJECT_DIR$/oopIntro/inheritance2.iml" />
       <module fileurl="file://$PROJECT_DIR$/oopIntro/oopIntro.iml" filepath="$PROJECT_DIR$/oopIntro/oopIntro.iml" />
     </modules>
   </component>
