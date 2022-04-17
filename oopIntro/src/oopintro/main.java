@@ -46,3 +46,13 @@ public class main {
     }
 }
 
+// NOTE:
+//reusability: Tekrar tekrar kullanılabilirlik. Bir kere yaz her yerde kullan demek.
+
+//reverseEngineering : tersine mühendislik yukarlarılara bakılır ne demiş burada.
+
+//best practice : işin doğru yapılma yöntemleridir.
+
+//for(double number:neredeki numberlar(myList) , buradaki numberları gez.){
+// }
+
